@@ -10,6 +10,10 @@
 // console.log(person.age);
 // let fun = undefined;
 // console.log(fun);
-let age =[7,9,11];
-console.log(age[4]);
-
+// let age =[7,9,11];
+// console.log(age[4]);
+// {/* <br /> <br /> */}
+function doSomething(x,y){
+    console.log(y);
+}
+doSomething(32);
