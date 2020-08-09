@@ -13,7 +13,12 @@
 // let age =[7,9,11];
 // console.log(age[4]);
 // {/* <br /> <br /> */}
-function doSomething(x,y){
+// function doSomething(x,y){
+//     console.log(y);
+// }
+// doSomething(32);
+
+function doSomething(x,y= 4){
     console.log(y);
 }
-doSomething(32);
+doSomething(3,2);
