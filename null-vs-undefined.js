@@ -18,7 +18,15 @@
 // }
 // doSomething(32);
 
-function doSomething(x,y= 4){
-    console.log(y);
+// function doSomething(x,y= 4){
+//     console.log(y);
+// }
+// doSomething(3,2);
+
+let output = "0";
+if('false'){
+    console.log("I am not false");
 }
-doSomething(3,2);
+else{ console.log("I am false");
+}
+console.log(output);
